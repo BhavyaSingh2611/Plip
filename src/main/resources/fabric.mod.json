@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "plip",
+  "version": "${version}",
+  "name": "plip",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/BhavyaSingh2611/Plip"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/Plip/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "org.slow.plip.plip.Plip"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "1.20.x"
+  }
+}
